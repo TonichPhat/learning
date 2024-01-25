@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@config/*": ["./src/config/*"],
+      "@app/*": ["./src/app/*"],
+      "@data/*": ["./src/data/*"],
+      "@models/*": ["./src/data/postgres/model/*"],
+      "@common/*": ["./src/common/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
